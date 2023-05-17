@@ -7,15 +7,15 @@ showcase:
   and contribute to the success of a progressive organization.<br>
   Highly skilled and motivated Software Engineer with many years of experience in developing and troubleshooting complex technical issues."
   image:
-    x: "img/showcase/developer1.png"
-    _2x: "img/showcase/developer1.png"
+    x: "img/showcase/showcase.png"
+    _2x: "img/showcase/showcase.png"
   imageMobile:
-    x: "img/showcase/developer1.png"
+    x: "img/showcase/showcase.png"
 
   button:
     icon: "icon-mail-fill"
     btnText: "Download Resume"
-    URL: "https://drive.google.com/file/d/11tvybclf_y1QmOqsO0xMQKezpH8SqKDl/view?usp=share_link"
+    URL: "https://drive.google.com/file/d/11tvybclf_y1QmOqsO0xMQKezpH8SqKDl/view?usp=sharing"
 
   
 
@@ -58,8 +58,8 @@ education:
 experience:
   enable: true
   title: "Experience"
-  description: "Over 7+ years of experience. My area of focus lies in backend development with Java and c#, and I am also familiar in Python.
-    My experience not only developing website but also winform using .net(c#).
+  description: "Over many years of experience in backend development with Java and c#, and I am also familiar in Python.
+    My experience not only developing website but also winform using .net(c#). 
     I enjoy designing and coding to iterate and improve the experiences. By improving experiences, I can foster skill growth.
 ."
   button:
@@ -91,71 +91,91 @@ experience:
 # Client & Work
 client_and_work:
   title: "Works"
-  enable: false
+  enable: true
 
   clients:
-    - logo:
-        x: "img/clients/asgardia.png"
-        _2x: "img/clients/asgardia@2x.png"
-      alt: "Asgardia"
+    # - logo:
+    #     x: "img/clients/asgardia.png"
+    #     _2x: "img/clients/asgardia@2x.png"
+    #   alt: "Asgardia"
 
-    - logo:
-        x: "img/clients/earth-2.png"
-        _2x: "img/clients/earth-2@2x.png"
-      alt: "Earth 2.0"
+    # - logo:
+    #     x: "img/clients/earth-2.png"
+    #     _2x: "img/clients/earth-2@2x.png"
+    #   alt: "Earth 2.0"
 
-    - logo:
-        x: "img/clients/goldline.png"
-        _2x: "img/clients/goldline@2x.png"
-      alt: "Goldline"
+    # - logo:
+    #     x: "img/clients/goldline.png"
+    #     _2x: "img/clients/goldline@2x.png"
+    #   alt: "Goldline"
 
-    - logo:
-        x: "img/clients/kanba.png"
-        _2x: "img/clients/kanba@2x.png"
-      alt: "Kanba"
+    # - logo:
+    #     x: "img/clients/kanba.png"
+    #     _2x: "img/clients/kanba@2x.png"
+    #   alt: "Kanba"
 
-    - logo:
-        x: "img/clients/zoo-tv.png"
-        _2x: "img/clients/zoo-tv@2x.png"
-      alt: "Zoo"
+    # - logo:
+    #     x: "img/clients/zoo-tv.png"
+    #     _2x: "img/clients/zoo-tv@2x.png"
+    #   alt: "Zoo"
 
-    - logo:
-        x: "img/clients/ztos.png"
-        _2x: "img/clients/ztos@2x.png"
-      alt: "Ztos"
+    # - logo:
+    #     x: "img/clients/ztos.png"
+    #     _2x: "img/clients/ztos@2x.png"
+    #   alt: "Ztos"
 
   works:
-    - title: "Radity Finance - UI Kit"
-      description: "We have been receiving a lot of requests for a Finance Kit recently due to the popularity of Fintech."
+    - title: "Taiwan Petroleum industry company(CPC)"
+      description: "Winform for POS system."
       button:
         icon: "icon-arrow-right"
         btnText: "Case Study"
         URL: "#"
       image:
-        x: "img/works/radity-finance.jpg"
-        _2x: "img/works/radity-finance@2x.jpg"
+        x: "img/works/3S.jpg"
+        _2x: "img/works/3S.jpg"
       is_even: true
 
-    - title: "Swiss Fintech Website"
-      description: "The Swiss Finance + Technology Association is the leading FinTech hub in Switzerland."
+    - title: "Ecommerce  Website"
+      description: "The website us for monitor the volumns of transcation of coupons."
       button:
         icon: "icon-arrow-right"
         btnText: "Case Study"
         URL: "#"
       image:
-        x: "img/works/swissfintech.jpg"
-        _2x: "img/works/swissfintech@2x.jpg"
-      is_even: false
-
-    - title: "Robo Advisor"
-      description: "Robo Advisor is a Swiss Wealth Manager and wants to create the best digital experience for its UNHW clients across the world. We started with a whiteboard."
+        x: "img/works/web.png"
+        _2x: "img/works/web.png"
+      is_even: true
+    - title: "CPC POS(Android-Java)"
+      description: "Android for POS system"
       button:
         icon: "icon-arrow-right"
         btnText: "Case Study"
         URL: "#"
       image:
-        x: "img/works/robo-advisor.jpg"
-        _2x: "img/works/robo-advisor@2x.jpg"
+        x: "img/works/3S_android.png"
+        _2x: "img/works/3S_android.png"
+      is_even: true
+    - title: "Gym monitor(Android-Java)"
+      description: "The app is used for monitor how many people stay in specfic gym, so that users can know if it is crowded in gym real tim"
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "img/works/gym.png"
+        _2x: "img/works/gym.png"
+      is_even: true
+     
+    - title: "Animal Adoption (Android-Kotlin)"
+      description: "Providing the information to people who want to adapt the animals"
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "img/works/animal.jpg"
+        _2x: "img/works/animal.jpg"
       is_even: true
 
 # testimonial
